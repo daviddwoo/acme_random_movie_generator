@@ -61,7 +61,7 @@ class Movies extends React.Component {
           this.props.movies.map((movie) => {
             return (
               <div key={movie.id} className='movieDiv'>
-                <button onClick={() => deleteMovie(movie.id)}>DELETE</button>
+                <button onClick={() => this.props.deleteMovie(movie.id)}>DELETE</button>
                 {movie.name} ({movie.rating})
                 <button onClick={() => this.decrement(movie)}> - </button>
                 <button onClick={() => this.increment(movie)}> + </button>

@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
+    "faker": "^5.5.3",
     "pg": "^8.7.1",
     "sequelize": "^6.12.1"
   },
@@ -23,7 +24,6 @@
     "@babel/preset-react": "^7.16.5",
     "axios": "^0.24.0",
     "babel-loader": "^8.2.3",
-    "faker": "^5.5.3",
     "nodemon": "^2.0.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
